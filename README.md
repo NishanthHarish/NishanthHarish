@@ -4,7 +4,8 @@
 
 ### Data Analyst · Business Analyst · Machine Learning
 
-**MSc Data Analytics (First Class Honours)** · Risk analytics at **Amazon** · Commercial analytics in **retail operations** · Dublin, Ireland 🇮🇪
+**MSc Data Analytics (First Class Honours)** · 3 yrs exp in Risk analytics  **@Amazon** Bengakuru, India 🇮🇳 · 3 yrs exp Commercial analytics in **retail operations @MCD UKROI** Dublin, Ireland 🇮🇪
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nishanth--harish-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishanth-harish)
 [![Live demo](https://img.shields.io/badge/Live%20demo-Lyme%20Rash%20Classifier-ffcc4d?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/nishanthharish/lyme-rash-classifier)
