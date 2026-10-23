@@ -18,20 +18,23 @@ I find the patterns in messy data and turn them into something a team can act on
 
 - 🔍 **Risk & fraud analytics:** I ran 60,000+ global transaction risk investigations at Amazon and improved fraud detection efficiency by 28% through pattern recognition and anomaly analysis.
 - 📈 **Commercial analytics:** I manage revenue operations in a €5M-turnover business, where forecast-driven planning cut labour cost variance by 5–6% and added €78K–€104K a year above forecast.
-- 🧠 **Machine learning:** my MSc research built a deep learning model that classifies Lyme disease rashes, now deployed as a private in-browser web app.
-- 🌱 **Currently:** building Lyme Rash Classifier 2.0 and looking for **Data Analyst / Business Analyst / Junior Data Scientist** roles in Ireland.
+- 🧠 **Machine learning:** my MSc research became Lyme Rash Classifier 2.0, a deep learning web app that catches 83% of Lyme rashes and runs privately in the browser.
+- 🌱 **Currently:** shipped Lyme Rash Classifier 2.0 and looking for **Data Analyst / Business Analyst / Junior Data Scientist** roles in Ireland.
 
 ## 🚀 Featured project
 
-### 🩺 [Lyme Rash Classifier](https://github.com/NishanthHarish/lyme-rash-classifier) · [▶ live demo](https://huggingface.co/spaces/nishanthharish/lyme-rash-classifier)
+### 🩺 [Lyme Rash Classifier 2.0](https://github.com/NishanthHarish/lyme-rash-classifier) · [▶ live demo](https://huggingface.co/spaces/nishanthharish/lyme-rash-classifier)
 
-A fine-tuned ResNet-50 that flags the "bullseye" rash of early Lyme disease from a photo. It runs entirely in the browser with TensorFlow.js, so images never leave the device.
+<a href="https://github.com/NishanthHarish/lyme-rash-classifier"><img src="https://raw.githubusercontent.com/NishanthHarish/lyme-rash-classifier/main/assets/cover.png" alt="Lyme Rash Classifier 2.0" width="600"></a>
 
-- Found train/test leakage from duplicated images, fixed it, and reported the honest leak-free accuracy (75.3%)
-- Shrank the model from 207 MB to 23 MB with 8-bit quantization at no accuracy cost
-- **2.0 in progress:** rejecting non-skin photos, higher Lyme recall, and a redesigned app
+Recognises the "bullseye" rash of early Lyme disease from a photo, and says so when a photo isn't a skin rash. It runs entirely in the browser with TensorFlow.js, so images never leave the device.
 
-`Python` `TensorFlow` `Keras` `TensorFlow.js` `Computer Vision` `Transfer Learning`
+- **Raised Lyme recall from 66.7% to 82.8%** with EfficientNetV2-S + ResNet-50 features and a cut-off tuned for sensitivity
+- **Rejects 99.6% of non-rash photos** (objects, scenes, healthy skin) instead of forcing a guess
+- Found train/test leakage from duplicated images in my thesis data, fixed it, and report only leak-free results
+- Redesigned the app with a score bar, clear guidance, dark mode and a mobile layout
+
+`Python` `TensorFlow` `Keras` `TensorFlow.js` `Computer Vision` `Out-of-distribution detection`
 
 ## 🛠️ What I'm building next
 
@@ -39,7 +42,7 @@ These projects connect my industry experience with the work I want to do. Each o
 
 | Project | What it shows | Status |
 | --- | --- | :---: |
-| 🩺 **Lyme Rash Classifier 2.0** | Out-of-distribution detection, model tuning, production-style app | 🔨 In progress |
+| 🩺 **Lyme Rash Classifier 2.0** | Out-of-distribution detection, model tuning, production-style app | ✅ Shipped |
 | 🕵️ **Transaction Fraud Detection** | Anomaly detection and classification on imbalanced data, with an explainable risk dashboard | 📋 Planned |
 | 🍔 **Retail Demand & Labour Forecasting** | Time-series forecasting that turns predicted demand into staffing plans and waste reduction | 📋 Planned |
 | 📊 **Business KPI Dashboard** | SQL + Tableau dashboard tracking revenue, cost variance and customer KPIs | 📋 Planned |
